@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Bocchi the Rock</title>
+  
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <img src="/assets/bochi logo.png" alt="Bocchi the Rock Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/dashboardin">Home</a></li>
+                    <li><a routerLink="/notuser">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="user-profile">
+        <h1>User Profile</h1>
+        <div class="user-info">
+            <img src="bocchi-user.jpg" alt="User 1">
+            <h2>User 1</h2>
+            <p>user1@example.com</p>
+        </div>
+        <div class="edit-form">
+            <h2>Edit Your Information</h2>
+            <form action="#" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="User 1" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="user1@example.com" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" value="123-456-7890" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required>123 Main Street, City, Country</textarea>
+                <button type="submit">Save Changes</button>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Bocchi the Rock. All rights reserved.</p>
+    </footer>
+</body>
+</html>

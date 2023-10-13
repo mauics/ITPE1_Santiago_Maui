@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Reader</title>
+   
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="logo">
+                <img src="/assets/bochi logo.png" alt="Manga Reader Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <a routerLink="/login" class="login-link">Login</a>
+                <a routerLink="/registration" class="register-link">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="dashboard-content">
+        <h1>Welcome to Manga Reader</h1>
+
+        <section class="top-read">
+            <h2>Top Read</h2>
+            <div class="card">
+                <img src="/assets/onepiece.jpg" alt="Recommended 1">
+                <h3>One Piece 1</h3>
+                <p>Oda Eiichiro</p>
+            </div>
+            <div class="card">
+                <img src="/assets/narutoi.jpg" alt="Recommended 2">
+                <h3>Naruto</h3>
+                <p>	Kishimoto Masashi</p>
+            </div>
+            <!-- Add more cards for top read manga here -->
+        </section>
+
+        <section class="recommended">
+            <h2>Recommended</h2>
+            <div class="card">
+                <img src="/assets/bocchicover.jpg" alt="Top Read 1">
+                <h3>Bocchi The Rock</h3>
+                <p>Author: Hamaji Aki</p>
+            </div>
+            <div class="card">
+                <img src="/assets/shadow.jpg" alt="Top Read 2">
+                <h3>The Eminence In Shadow</h3>
+                <p>Author: 	Anri Sakano - Daisuke Aizawa</p>
+            </div>
+            <!-- Add more cards for recommended manga here -->
+        </section>
+    </main>
+    
+    <footer class="dashboard-footer">
+        <p>&copy; 2023 Manga Reader. All rights reserved.</p>
+    </footer>
+</body>
+</html>

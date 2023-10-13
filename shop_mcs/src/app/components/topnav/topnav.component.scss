@@ -1,0 +1,112 @@
+.dashboard {
+    display: flex;
+    height: 20vh; /* Make it full height */
+}
+
+/* Content styling */
+.content {
+    flex-grow: 1; /* Allow the content to grow and fill the remaining space */
+    background-color: #baf0fe43; /* Background color of the content area */
+    padding: 20px;
+   
+
+}
+
+.text{
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ff51f0 0%,
+    #3268dd 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #ffffff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+
+      font-size: 120px;
+      text-align: center;
+      cursor: default;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+
+}
+
+.userprofile{
+
+  border-radius: 100%;
+}
+
+/* Profile picture styling */
+.profile {
+    display: absolute;
+    text-align: right;
+    margin-right: 55px; /* Add some spacing from the right edge */
+    margin-top: -110px;
+    padding: -20px 0px;
+}
+
+/* Style for the profile picture */
+.profile img {
+    
+    width: 100px; /* Set the width of the profile picture */
+    height: 100px; /* Set the height of the profile picture */
+    border-radius: 50%; /* Create a circular profile picture */
+    border: 3px solid #00000000; /* Add a border around the picture */
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

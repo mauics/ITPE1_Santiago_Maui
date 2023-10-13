@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Reader Dashboard</title>
+    
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="logo">
+                <img src="/assets/bochi logo.png" alt="Manga Reader Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a routerLink="/dashboardin">Home</a></li>
+                    <li><a routerLink="/product">Library</a></li>
+                    <li><a routerLink="/userm">Settings</a></li>
+                    <li><a routerLink="/notuser">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="dashboard-content">
+        <h1>Welcome to Manga Reader</h1>
+
+        <section class="top-read">
+            <h2>Top Read</h2>
+            <div class="card">
+                <img src="/assets/bocchicover.jpg" alt="Top Read 1">
+                <h3>Bocchi The Rock</h3>
+                <p>Author: Hamaji Aki</p>
+            </div>
+            <div class="card">
+                <img src="/assets/shadow.jpg" alt="Top Read 2">
+                <h3>The Eminence In Shadow</h3>
+                <p>Author: 	Anri Sakano - Daisuke Aizawa</p>
+            </div>
+            <!-- Add more cards for top read manga here -->
+        </section>
+
+        <section class="manga-choices">
+            <h2>Manga Choices</h2>
+            <div class="card">
+                <img src="/assets/slime.jpg" alt="Manga 1">
+                <h3>Tensei Shitara Slime Datta Ken 1</h3>
+                <p>	Fuse - Kawakami Taiki</p>
+            </div>
+            <div class="card">
+                <img src="/assets/bluelock.jpg" alt="Manga 2">
+                <h3>Blue Lock2</h3>
+                <p>	Muneyuki Kaneshiro - Yuusuke Nomura</p>
+            </div>
+            <!-- Add more cards for manga choices here -->
+        </section>
+
+        <section class="recommended-for-you">
+            <h2>Recommended for You</h2>
+            <div class="card">
+                <img src="/assets/onepiece.jpg" alt="Recommended 1">
+                <h3>One Piece 1</h3>
+                <p>Oda Eiichiro</p>
+            </div>
+            <div class="card">
+                <img src="/assets/narutoi.jpg" alt="Recommended 2">
+                <h3>Naruto</h3>
+                <p>	Kishimoto Masashi</p>
+            </div>
+            <!-- Add more cards for recommended manga here -->
+        </section>
+
+       
+    </main>
+    
+    <footer class="dashboard-footer">
+        <p>&copy; 2023 Manga Reader. All rights reserved.</p>
+    </footer>
+</body>
+</html>

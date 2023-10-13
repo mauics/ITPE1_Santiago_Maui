@@ -1,0 +1,183 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define overall styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Dashboard header styles */
+.dashboard-header {
+    background-color: #ff8080; /* Dashboard header background color */
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.dashboard-header .logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4d4d; /* Lighter shade of dashboard theme color on hover */
+}
+
+/* Dashboard content styles */
+.dashboard-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff8080; /* Dashboard theme color */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Dashboard footer styles */
+.dashboard-footer {
+    background-color: #ff8080; /* Dashboard footer background color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Center align header on small screens */
+@media screen and (max-width: 768px) {
+    .dashboard-header {
+        justify-content: center;
+        padding: 15px 0;
+    }
+    nav {
+        display: none;
+    }
+    .dashboard-header .logo {
+        text-align: center;
+    }
+    .dashboard-header .logo img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+
+/* Recommended section styles */
+.recommended {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.recommended h2 {
+    color: #ff8080; /* Dashboard theme color */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* ... (previous CSS styles) ... */
+
+/* Card styles */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* ... (previous CSS styles) ... */
+
+/* Top Read section styles */
+.top-read {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.top-read h2 {
+    color: #ff8080; /* Dashboard theme color */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Header styles */
+.user-actions {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.login-link,
+.register-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.login-link:hover,
+.register-link:hover {
+    color: #ff4d4d; /* Lighter shade of dashboard theme color on hover */
+}
+
+/* ... (previous CSS styles) ... */
+

@@ -1,0 +1,99 @@
+.sidenav-container {
+    width: 10%; /* Set the initial width */
+    height: 100%; /*height */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #353535; /* Background color of the side nav */
+    overflow-x: hidden;
+    transition: width 0.3s; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* shadow */
+    z-index: 1; 
+    display: flex;
+    padding: 10px 15px;
+    margin: 8px;
+}
+
+.sidenav-nav-item{
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 100px 30px;    
+}
+
+.sidenav-nav-item2{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    padding: 200px 30px; 
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin: 30px 0;
+    display: flex;
+    justify-content: baseline;
+    cursor: pointer;
+    align-items: center;
+}
+
+ul li p{
+    white-space:nowrap;
+    display: none;
+    font-weight: 900;
+}
+
+
+
+.logo {
+    padding: 15px;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px; 
+    height: 75px;
+    border-radius: 70%; 
+}
+img{
+    align-items: center;
+}
+
+/* navigation item */
+.sidenav-container a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff; 
+    transition: background-color 0.5s; 
+}
+
+/* Hover effect */
+.sidenav-container:hover {
+    width: 400px; /* Set the width on hover to display the side nav */
+}
+
+/* Hover effect nav items */
+.sidenav-container:hover ul li p {
+    display: block;
+    color: #ffffff; 
+}
+
+.sidenav-container:hover ul li img{
+    margin-right: 20px;
+    transition: 2s;
+    text-align: left;
+}
+
+ul li{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
