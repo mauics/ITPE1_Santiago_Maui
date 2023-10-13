@@ -12,7 +12,7 @@ body {
 
 /* Dashboard header styles */
 .dashboard-header {
-    background-color: #ff8080; /* Dashboard header background color */
+    background-color: #ff8080;
     color: #fff;
     position: fixed;
     top: 0;
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff4d4d; /* Lighter shade of dashboard theme color on hover */
+    color: #ff4d4d; 
 }
 
 /* Dashboard content styles */
@@ -63,14 +63,14 @@ nav a:hover {
 }
 
 h1 {
-    color: #ff8080; /* Dashboard theme color */
+    color: #ff8080; 
     font-size: 24px;
     margin-bottom: 20px;
 }
 
 /* Dashboard footer styles */
 .dashboard-footer {
-    background-color: #ff8080; /* Dashboard footer background color */
+    background-color: #ff8080;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -93,7 +93,7 @@ h1 {
         margin: 0 auto;
     }
 }
-/* ... (previous CSS styles) ... */
+
 
 /* Manga Choices section styles */
 .manga-choices {
@@ -120,11 +120,11 @@ h1 {
 }
 
 .recommended-for-you h2 {
-    color: #ff8080; /* Dashboard theme color */
+    color: #ff8080; 
     font-size: 20px;
     margin-bottom: 10px;
 }
-/* ... (previous CSS styles) ... */
+
 
 /* Card styles */
 .card {
@@ -153,8 +153,7 @@ h1 {
     font-size: 16px;
 }
 
-/* ... (previous CSS styles) ... */
-/* ... (previous CSS styles) ... */
+
 
 /* Top Read section styles */
 .top-read {
@@ -171,4 +170,4 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* ... (previous CSS styles) ... */
+

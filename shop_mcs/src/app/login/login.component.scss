@@ -27,7 +27,7 @@ body {
 }
 
 h2 {
-    color: #ff8080; /* Bocchi the Rock theme color */
+    color: #ff8080; 
     font-size: 28px;
     margin-bottom: 10px;
 }
@@ -59,7 +59,7 @@ input[type="password"] {
 }
 
 button {
-    background-color: #ff8080; /* Bocchi the Rock theme color */
+    background-color: #ff8080; 
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -70,7 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff4d4d; /* Lighter shade of Bocchi theme color on hover */
+    background-color: #ff4d4d; 
 }
 
 .forgot-password {
@@ -89,25 +89,22 @@ button:hover {
 }
 
 
-/* Add this CSS to style the fixed header */
-
 /* Header styles */
 .site-header {
     background-color: #333;
     color: #fff;
-    position: fixed; /* Make the header fixed at the top */
-    top: 0;
+    position: fixed; 
     left: 0;
     right: 0;
-    z-index: 1000; /* Ensure the header is above other content */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Adjust padding for spacing */
+    padding: 10px 20px; 
 }
 
 .site-header .logo img {
@@ -132,5 +129,5 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff8080; /* Highlight color on hover */
+    color: #ff8080; 
 }

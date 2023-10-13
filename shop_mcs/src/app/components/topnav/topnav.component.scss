@@ -5,8 +5,8 @@
 
 /* Content styling */
 .content {
-    flex-grow: 1; /* Allow the content to grow and fill the remaining space */
-    background-color: #baf0fe43; /* Background color of the content area */
+    flex-grow: 1; 
+    background-color: #baf0fe43; 
     padding: 20px;
    
 
@@ -51,7 +51,7 @@
 .profile {
     display: absolute;
     text-align: right;
-    margin-right: 55px; /* Add some spacing from the right edge */
+    margin-right: 55px; 
     margin-top: -110px;
     padding: -20px 0px;
 }
@@ -59,10 +59,10 @@
 /* Style for the profile picture */
 .profile img {
     
-    width: 100px; /* Set the width of the profile picture */
-    height: 100px; /* Set the height of the profile picture */
-    border-radius: 50%; /* Create a circular profile picture */
-    border: 3px solid #00000000; /* Add a border around the picture */
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    border: 3px solid #00000000;
 }
 
 .dropdown {

@@ -4,7 +4,7 @@ body, h1, p {
     padding: 0;
 }
 
-/* Define overall styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff4d4d; /* Lighter shade of dashboard theme color on hover */
+    color: #ff4d4d; 
 }
 
 /* Dashboard content styles */
@@ -63,20 +63,19 @@ nav a:hover {
 }
 
 h1 {
-    color: #ff8080; /* Dashboard theme color */
+    color: #ff8080; 
     font-size: 24px;
     margin-bottom: 20px;
 }
 
 /* Dashboard footer styles */
 .dashboard-footer {
-    background-color: #ff8080; /* Dashboard footer background color */
+    background-color: #ff8080;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
-/* Center align header on small screens */
 @media screen and (max-width: 768px) {
     .dashboard-header {
         justify-content: center;
@@ -96,7 +95,7 @@ h1 {
 
 
 
-/* ... (previous CSS styles) ... */
+
 
 /* Card styles */
 .card {
@@ -126,10 +125,6 @@ h1 {
 }
 
 
-/* ... (previous CSS styles) ... */
-
-/* ... (previous CSS styles) ... */
-
 /* Header styles */
 .user-actions {
     margin-left: auto;
@@ -148,11 +143,9 @@ h1 {
 
 .login-link:hover,
 .register-link:hover {
-    color: #ff4d4d; /* Lighter shade of dashboard theme color on hover */
+    color: #ff4d4d; 
 }
-/* ... (previous CSS styles) ... */
 
-/* All Mangas section styles */
 .all-mangas {
     display: flex;
     flex-wrap: wrap;
@@ -172,7 +165,7 @@ h1 {
 .all-mangas .card img {
     max-width: 100%;
     height: auto;
-    border-radius: 5px 5px 0 0; /* Rounded top corners */
+    border-radius: 5px 5px 0 0; 
 }
 
 .all-mangas .card h3 {
@@ -187,11 +180,11 @@ h1 {
     margin: 10px;
 }
 
-/* Add hover effect for the cards */
+
 .all-mangas .card:hover {
     transform: translateY(-5px);
     transition: transform 0.2s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* ... (previous CSS styles) ... */
+
